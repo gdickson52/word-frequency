@@ -46,5 +46,5 @@ if __name__ == "__main__":
     if file.is_file():
         print_word_freq(file)
     else:
-        print(f"{file} does not exist!")
+        print(f"{file} sorry, does not exist!")
         exit(1)
